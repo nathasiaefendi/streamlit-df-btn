@@ -3,12 +3,13 @@ import streamlit as st
         # # Show user table 
 colms = st.columns((1, 2, 2, 1, 1))
 user_table = {
-        "email": ["tests@test.com"],
-        "uid": [123],
-        "verified": ["no"],
-        "url": ["www.google.com"]
+        "email": ["testsssss@test.com", "nayanae@test.com", "@@@"],
+        "uid": [123, 456, 789],
+        "verified": ["no", "yes", "no"],
+        "url": ["www.google.com", "www.yahoo.com", "goo.gle"]
 }
 fields = ["№", 'email', 'uid', 'verified', "action"]
+
 for col, field_name in zip(colms, fields):
         # header
         col.write(field_name)
