@@ -20,4 +20,4 @@ for x, email in enumerate(user_table['email']):
         col2.write(user_table['email'][x])  # email
         col3.write(user_table['uid'][x])  # unique ID
         col4.write(user_table['verified'][x])   # email status
-        do_action = col5.button("View", key=x) # button
+        col5.button("View", key=x) # button
